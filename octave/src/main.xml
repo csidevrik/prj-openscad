@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dialog Color="[0.941 0.941 0.941]" HPosition="center" Name="PRIMERO" Position="[1 505 1116 934]" Resize="off" VPosition="center" windowStyle="normal">
+    <GlobalSrc>%
+% El código fuente escrito aquí será ejecutado cuando
+% la ventana se haga visible. Funciona como el evento 'onLoad' de otros lenguajes.
+%
+</GlobalSrc>
+    <uiControl class="listCtrl" BackgroundColor="[1.000 1.000 1.000]" FontAngle="normal" FontName="Arial" FontSize="10" FontWeight="normal" ForegroundColor="[0.000 0.000 0.000]" GenerateCallBack="false" Name="ListBox_3" Position="[498 565 105 255]" String="Value A|Value B|Value C" TooltipString=""/>
+    <uiControl class="frameCtrl" BackgroundColor="[0.941 0.941 0.941]" FontName="Arial" FontSize="10" GenerateCallBack="false" Name="Frame_18" Position="[95 120 916 275]" TooltipString=""/>
+</dialog>
