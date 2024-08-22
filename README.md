@@ -18,7 +18,7 @@ Mira por ejemplo la siguiente imagen de un embutido
 
 Algo asi es a lo que quiero llegar con el bofe, ya que seria mucho mas facil vender esto y mantenerlo congelado para el consumo humano, para el caldo de los gatos y mas cosas.
 
-Ahora bien vamos a ver que pasa si queremos 
+Ahora bien vamos a ver que pasa si queremos
 
 ![1718083109259](image/README/1718083109259.png)
 
@@ -26,12 +26,10 @@ Normalmente el bofe se vende en libras, ahora bien el reto es conseguir una form
 
 Una libra es una unidad de medida peso y masa, habrá que pensar en una forma de convertir peso en volumen.
 
-
 ![1718084150779](image/README/1718084150779.png)
 
-
-Hice estos calculos pero creo que estan terriblemente mal, mas sin embargo muestro lo que estaba pensando 
+Hice estos calculos pero creo que estan terriblemente mal, mas sin embargo muestro lo que estaba pensando
 
 ![1718088310464](image/README/1718088310464.png)
 
-f
+Esta imagen anterior hay que revisar sus calculos.
