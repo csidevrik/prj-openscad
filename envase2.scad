@@ -1,7 +1,7 @@
 // Parámetros generales
 size_x = 90;
 size_y = 90;
-size_z = 200;
+size_z = 300;
 corner_radius = 10;
 pared_exterior = 2;
 
@@ -37,18 +37,18 @@ difference() {
 // Tapa con forma exterior rectangular + reborde cilíndrico inferior
 // --------------------
 color([0.2, 0.6, 0.8])
-translate([0, 0, size_z + 20])
+translate([0, 0, size_z + 2])
 difference() {
     union() {
         // Parte visible de la tapa con forma rectangular
         rounded_box(size_x, size_y, altura_tapa, corner_radius);
 
         // Reborde cilíndrico que encaja dentro del hueco
-        translate([0, 0, -8])  // sobresale hacia abajo
-            cylinder(h = 4, r = radio_hueco - ajuste_tapa);
+        translate([0, 0, -12])  // sobresale hacia abajo
+            cylinder(h = 12, r = radio_hueco - ajuste_tapa);
     }
 
-    // Hueco de aligeramiento opcional
-    translate([0, 0, 0.5])
-        cylinder(h = altura_tapa - 0.5, r = radio_hueco - pared_exterior);
+    // // Hueco de aligeramiento opcional
+    // translate([0, 0, 0.5])
+    //     cylinder(h = altura_tapa - 0.5, r = radio_hueco - pared_exterior);
 }
