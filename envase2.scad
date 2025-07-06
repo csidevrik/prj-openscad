@@ -1,4 +1,5 @@
 // Parámetros generales
+// Todo esta en milimetros
 size_x = 90;
 size_y = 90;
 size_z = 300;
